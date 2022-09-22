@@ -1,0 +1,231 @@
+body {
+    background-color: #F5F5F5;
+    overflow-x: hidden;
+    transition: background-color .5s;
+}
+.row {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.carousel slide{
+    padding: 0%;
+    margin: 0%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #DEDEDE;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .sidenav a {
+    padding: 8px 0px 0px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidNavTitle{
+    font-size: large;
+    font-weight: 700;
+    padding-left: 10px;
+  }
+  #topSedeNav{
+    padding-top: 30px;
+  }
+  .nav-links{
+    font-size: small;
+    padding-left: 10px;
+    font-weight: 500;
+  }
+  
+  .sidenav a:hover {
+    color:  white;
+  
+  }
+  .nav-link{
+    color:white;
+    padding-bottom: 10px;
+   
+    
+  }
+  
+
+  #strongId > b {
+    background-color: #610101;
+    color:white;
+    margin-right: 5px;
+    padding: 2px;
+}
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .nav{
+   
+    background-color: #1A6F96;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding-top: 6px;
+
+  
+  }
+
+  
+#promotion-bar-div{
+    padding-top:8px;
+    padding-bottom:30px;
+    background-color:#DEDEDE;
+    height: 70px;
+}
+#promotion-bar{
+    padding-top: 12px;
+    padding-bottom: 17px;
+    background-color: #1A6F96;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size:medium;
+}
+.tickers-title{
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.tickers-button{
+    padding: 6px;
+    background-color:#176C98 ;
+    color: white;
+    font-weight: bold;
+    font-size: x-small;
+    text-decoration: none;
+}
+.carousel-caption{
+   margin-top: 500px;
+}
+.offer-text{
+   padding-left: 28px;
+ 
+}
+.offer{
+    padding-left: 2px;
+    padding-right: 6px;
+    color:  #680101;
+    font-weight: bold;
+    font-size: small;
+ }
+ 
+ .offer-timer{
+    padding-left: 10px;
+    font-size: smaller;
+    color: #680101;
+ }
+.ofeer-text-detail{
+    font-size: smaller;
+    padding-left: 30px;
+    
+}
+
+.carousel-control-prev{
+   color: #DEDEDE;
+}
+.carousel-control-next{
+    color: #DEDEDE;
+}
+
+.carousel-tickers{
+    background-color: #DEDEDE;
+}
+
+.d-block{
+   
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+.carousel-item{
+    justify-content: center;
+}
+#ticker-section{
+    padding: 10px;
+    background-color: #F5F5F5;
+}
+.ticker-row{
+    padding-top: 26px;
+    padding-right:6px;
+    padding-left:6px;
+}
+.banner-div{
+    text-align: center;
+    justify-content: center;
+    background-color: #DEDEDE;
+}
+.img-thumbnail{
+ 
+    background-color: #DEDEDE;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+    font-weight: bold;
+}
+.banner-title{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: larger;
+   text-align: left;
+   padding-left: 20px;
+   font-family: Verdana;
+   padding-bottom: 0%;
+}
+.banner-text{
+    padding-top: 10px;
+   
+}
+#banner-a{
+    text-decoration: none;
+    color: #00334E;
+}
+.banner-row{
+    padding-right:6px;
+    padding-left:6px;
+    padding-top: 20px;
+}
+.banner-image{
+  height: 330px;
+  width: 330px;
+    padding-right:2px;
+    padding-left:2px;
+    padding-top: 0%;
+}
+a:hover{
+color: yellow;
+}
+
+.d-inline{
+  font-weight: bold;
+}
+
+#hrTicker{
+  display: none;
+}
+
+#tickerImageSize{
+  width: 300px;
+  height:280px;
+}
+
+
+

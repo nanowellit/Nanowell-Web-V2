@@ -1,0 +1,813 @@
+#cart {
+    padding-top: 10px;
+}
+
+
+
+div.scrollmenu {
+    background-color: #1A6F96;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+div.navScrollSmall {
+    background-color: #00334E;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 0px;
+
+}
+
+div.navScrollSmall a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-decoration: none;
+}
+
+
+
+#navScrollSmall {
+    display: none;
+}
+
+#basic-addon2 {
+    height: 40px;
+    margin-top: 10px;
+    background-color: #197187;
+    color: white;
+    border: 1px solid #197187;
+    margin-right: 10px;
+}
+
+#searchset {
+    padding-bottom: 5px;
+
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+#lblCartCount {
+    font-size: 16px !important;
+    background-color: yellow !important;
+    color: #00334E;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -27px;
+    height: 0px;
+    position: absolute;
+
+}
+
+.search {
+    height: 42px;
+    margin-top: 12px;
+    border: 1px solid #197187;
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+
+#search-addon {
+    background-color: #197187;
+    color: white;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+#signupMinScreen {
+    text-align: center;
+    display: none;
+}
+
+#show-hide-location {
+    display: none !important;
+}
+
+.nav-item {
+    padding-top: 10px;
+}
+
+#header {
+    background-color: #00334E;
+    padding-top: 8px;
+}
+
+#topHeaderCart {
+    padding-top: 14px;
+}
+
+#footer-top-button {
+    padding-top: 18px;
+}
+
+#topHeaderCart {
+    float: left;
+}
+
+#imageFlag {
+    width: 32px;
+
+}
+
+.fa-caret-down {
+    padding-left: 6px;
+}
+
+#signInBtn {
+    background-color: #EFC353;
+    color: black;
+    border-color: #EFC353;
+    text-decoration: none;
+    text-shadow: none;
+    font-size: large;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#topFooterLoginIndicatior {
+    padding-top: 8px;
+}
+
+#topHeaderCart {
+    padding-top: 20px;
+}
+
+#newCustomer {
+    font-size: small;
+}
+
+#choose-location-small {
+    font-size: x-small;
+    color: black;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 30px;
+}
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 90%;
+    background: #f1f1f1;
+}
+
+#modelSign {
+    background-color: #00334E;
+    color: white;
+    border: none;
+}
+
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 1px;
+    background: #1A6F96;
+    color: white;
+    font-size: 24px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    padding-top: 1px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer-Top {
+    background-color: #00334E;
+
+}
+
+.fa-map-marker {
+    color: white;
+
+}
+
+footer {
+    background-color: #176C98;
+}
+
+#footer-top-location-text1 {
+    color: white;
+    font-size: x-small;
+}
+
+#footer-top-location-text2 {
+    color: white;
+    font-size: small;
+}
+
+#header-top-location-text1 {
+    color: white;
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+#header-top-location-text2 {
+    color: white;
+    font-size: small !important;
+}
+
+li a:hover {
+    border: 0.5px solid white;
+    background-color: transparent;
+    text-decoration: none;
+    color: white !important;
+
+}
+
+.up1 {
+    font-weight: 700;
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0%;
+}
+
+.up-p-1 {
+    padding: 0%;
+    margin: 0%;
+    font-size: smaller;
+
+}
+
+#row-top-footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.row {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.center {
+    margin: auto;
+    padding-left: 120px;
+}
+
+.footer-bar {
+    background-color: #00334E;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#Language {
+    background-color: #176C98;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+#toplanguage {
+    padding-left: 6px;
+}
+
+.banner-padding {
+    margin: 0%;
+    padding: 0%;
+}
+
+#bar-content {
+    padding: 10px;
+}
+
+#locationFooter {
+    font-size: small;
+    background-color: #00334E;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    border: white 1px solid;
+    color: white;
+
+}
+
+#mainLanguageIcon {
+    width: 10%;
+    height: 30px;
+    padding-bottom: 6px;
+}
+
+
+#row-bottom-footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    padding-right: 80px;
+
+}
+
+.banner-bottom-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Copyright-indicator {
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: large;
+    padding-bottom: 6px;
+}
+
+#searchhide {
+    display: none;
+}
+
+#showinmobile {
+    display: none;
+}
+
+.signInUserView2 {
+    display: none;
+}
+
+.inputSet1 {
+    display: none;
+}
+
+#hum2 {
+    padding-top: 12px;
+    display: none;
+}
+
+#top-logo {
+    margin-top: 16px;
+    width: 150px;
+    height: 25px;
+    margin-left: 10px;
+    /*margin-top: 20px;*/
+    display: block;
+    cursor: pointer;
+
+}
+
+#top-logo-image {
+    width: 150px;
+    height: 25px;
+}
+
+#cardPadding {
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.flagset {
+    margin-right: 10px;
+}
+
+.SigninTop {
+    padding-right: 2px;
+    margin-top: 26px;
+
+}
+
+#SigninTo2 {
+    margin-right: 10px;
+}
+
+#CardSvg {
+
+    vertical-align: sub !important;
+}
+
+#header-top-location-text3 {
+
+    vertical-align: super !important;
+
+}
+
+
+/*  Added By KS Lee*/
+
+div.scrollmenu a:hover span.navToppSpan {
+ 
+  border: rgba(255,255,255,0.3) 2px solid; 
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.navToppSpan {
+  padding: 3px 7px;
+
+  
+}
+
+#header-top-location-text1 {
+    line-height: 15px;
+}
+
+#top-logo {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+@media only screen and (max-width: 360px) {
+
+    .sign-in-group {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .flagset, #locationset {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    #navScroll {
+        overflow: hidden !important;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    #SigninTo2 {
+        margin-right: -10px !important;
+        position: absolute;
+
+    }
+
+    #header-top-location-text2 {
+        font-size: small !important;
+    }
+
+    .footerHide {
+        display: none;
+    }
+
+    .signInUserView2 {
+        display: contents;
+    }
+
+    .fixRightSide {
+        position: absolute;
+        right: 0;
+        margin-top: 3px;
+
+        vertical-align: middle;
+    }
+
+    #show-hide-location {
+        display: contents !important;
+
+    }
+
+    #cardPadding {
+        font-size: 10px;
+
+    }
+
+    .SigninTop {
+        padding-right: 5px;
+        margin-top: 0px !important;
+
+    }
+
+    #CardSvg {
+
+        vertical-align: sub !important;
+    }
+
+    #lblCartCount {
+        font-size: 15px !important;
+        background-color: yellow !important;
+        color: #00334E;
+        padding: 0 5px;
+        vertical-align: top;
+        margin-left: -27px;
+        margin-top: 0px;
+
+        height: 0px;
+        position: absolute;
+
+    }
+
+    .flagset {
+        display: none;
+    }
+
+    #top-logo {
+        margin-top: 11px;
+        width: 130px;
+        height: 20px;
+        margin-left: 0px;
+    }
+
+    #top-logo-image {
+        width: 130px;
+        height: 20px;
+    }
+
+    #navScrollSmall {
+        display: block;
+    }
+
+    #header-top-location-text3 {
+        padding-top: 0px;
+        font-size: small !important;
+        margin-top: 0px !important;
+        vertical-align: super !important;
+
+    }
+
+    #hum1 {
+        display: none !important;
+    }
+
+    #hum2 {
+        padding: 12px 13px 10px 8px;
+        display: block;
+    }
+
+    #navTopp {
+        display: none;
+    }
+
+    #searchhide {
+        display: block;
+        padding-bottom: 6px;
+        padding-top: 0%;
+        margin-top: 0%;
+        width: 100%;
+    }
+
+    #imageFlag {
+        width: 32px;
+    }
+
+    #basic-addon2 {
+        height: 40px;
+        margin-top: 0px;
+        background-color: #197187;
+        color: white;
+        border: 1px solid #197187;
+
+    }
+
+    .inputSet {
+        padding-top: 10px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .headerheader {
+        height: 60px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    #nav {
+        width: 100%;
+    }
+
+
+    .yourlocationheadr {
+        display: none !important;
+    }
+
+    #mainLanguageIcon {
+        width: 30%;
+        height: 30px;
+        padding-bottom: 6px;
+    }
+
+    #showlocationhead {
+        display: block !important;
+    }
+
+    #row-top-footer {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: white;
+        padding-right: 10px;
+        padding-left: 20px;
+
+
+    }
+
+    #row-bottom-footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        padding-right: 10px;
+        padding-left: 20px;
+
+
+    }
+
+    .center {
+        margin: auto;
+        padding-left: 4px;
+        padding-right: 20px;
+    }
+
+    #Copyright-indicator {
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: small;
+    }
+
+
+
+    #rightmenu {
+
+        padding-left: 10px;
+    }
+
+    .inputSet1 {
+        display: block !important;
+        margin-left: 10px;
+
+    }
+
+    .fa-search1 {
+        margin-right: 10px;
+    }
+
+    .inputSet {
+        display: none !important;
+    }
+
+    .flagset {
+        padding-bottom: 10px;
+    }
+
+    #hrTicker {
+        display: block !important;
+    }
+
+    #header-top-location-text1 {
+        color: white;
+        font-size: 12px;
+        margin-top: 2px;
+
+
+    }
+
+    #leftspan {
+        margin-left: 10px !important;
+    }
+
+    #header-top-location-text2 {
+        font-size: small !important;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:1200px) {
+
+
+    .nav-link {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .footerHide {
+        display: none;
+
+    }
+
+    #tickerImageSize {
+        width: 320px !important;
+        height: 220px !important;
+    }
+
+    #ticker3 {
+        display: none;
+    }
+
+    #imageLocation {
+        display: none;
+    }
+
+
+    .banner-padding {
+        margin: 0%;
+        padding: 10px;
+    }
+
+    #row-bottom-footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        padding-right: 10px;
+        padding-left: 20px;
+
+    }
+
+    .center {
+        margin: auto;
+        padding-left: 10px;
+    }
+
+    #mainLanguageIcon {
+        width: 20%;
+        height: 30px;
+        padding-bottom: 6px;
+    }
+
+
+    .itemHidden {
+        display: none;
+    }
+
+
+    .d-block {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .nav-link {
+        font-size: small;
+    }
+
+    #linkhide {
+        display: none;
+    }
+
+    #top-logo {
+        margin-top: 16px;
+        cursor: pointer;
+        width: 150px;
+        height: 25px;
+        margin-left: 10px;
+        /*margin-top: 20px;*/
+        display: block;
+
+    }
+
+    #top-logo-image {
+        width: 150px;
+        height: 25px;
+    }
+}
