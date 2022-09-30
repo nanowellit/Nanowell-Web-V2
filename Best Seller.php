@@ -93,8 +93,9 @@
           <a href="#"><label class="nav-links">Sign In</label></a>
           <br>
         </div>
+        <!--banner-->
         <div class="row banner-hide">
-          <div class="col-lg-12 padding-0" id="cardBanner">
+          <div class="col-lg-12 padding-0 cardBanner">
             <div class="row banner">
               <div class="banner-div">
                 <p class="banner-title"><b>Newsletter</b></p>
@@ -253,11 +254,9 @@
             </div>
           </div>
 
-
         </div>
         <!--recent desktop view-->
-        <div id="recentView"
-          class="row row-cols-1 row-cols-lg-4  row-cols-md-2 row-cols-sm-2 row-cols-2 g-3 mobileHide">
+        <div id="recentView" class="row row-cols-1 row-cols-lg-4  row-cols-md-2 row-cols-sm-2 row-cols-2 g-3 mobileHide">
           <div class="col">
             <div class="card">
               <img src="images/Itemticker1.png" class="card-img-top" alt="...">
@@ -274,39 +273,13 @@
         </div>
       </div>
     </div>
+    <!--mobile bannerView-->
     <div class="row banner-hide2">
-      <div class="col-lg-12 padding-0">
+      <div class="col-lg-12 padding-0 cardBanner">
         <div class="row banner">
           <div class="banner-div">
             <p class="banner-title"><b>Newsletter</b></p>
             <img src="images/banner1.jpg" class="img-thumbnail banner-image" alt="...">
-            <div class="row">
-              <p class="banner-text"><b><a id="banner-a" href="#">Join now</a></b></p>
-            </div>
-          </div>
-        </div>
-        <div class="row banner">
-          <div class="banner-div">
-            <p class="banner-title"><b>Newsletter</b></p>
-            <img src="images/banner2.jpg" class="img-thumbnail banner-image" alt="...">
-            <div class="row">
-              <p class="banner-text"><b><a id="banner-a" href="#">Join now</a></b></p>
-            </div>
-          </div>
-        </div>
-        <div class="row banner">
-          <div class="banner-div">
-            <p class="banner-title"><b>Newsletter</b></p>
-            <img src="images/banner3.jpg" class="img-thumbnail banner-image" alt="...">
-            <div class="row">
-              <p class="banner-text"><b><a id="banner-a" href="#">Join now</a></b></p>
-            </div>
-          </div>
-        </div>
-        <div class="row banner">
-          <div class="banner-div">
-            <p class="banner-title"><b>Newsletter</b></p>
-            <img src="images/banner4.jpg" class="img-thumbnail banner-image" alt="...">
             <div class="row">
               <p class="banner-text"><b><a id="banner-a" href="#">Join now</a></b></p>
             </div>
