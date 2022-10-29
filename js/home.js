@@ -75,7 +75,7 @@ if(topNav && topNav.length>0){
   buttonIcon+='<span id="hum1" style="font-size:18px;cursor:pointer; position:absolute; background-color:#1A6F96" onclick="openNav()"> <img style="padding: 0%;" src="images/iconbar.png">  </span>&nbsp;</span><span id="leftspan" style="margin-left:46px"><label id="show-hide-location" data-bs-toggle="modal" data-bs-target="#exampleModal1"><i style="font-size:26px; cursor: pointer; padding-bottom:10px; padding-top:6px; padding-left:8px" class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp; <label style="color:white; padding-bottom:5px" class="location1Footer">location</label></label>'
   for (let i = 0; i < topNav.length; i++) {
     const element = topNav[i];
-    PreparedHtml+='<a  id="navTopp" href="'+element.menuurl+'"><span class="navToppSpan">' + element.menutitle + '</span></a>';
+    PreparedHtml+='<a  id="navTopp" href="'+element.menuurl+'">'+element.menutitle+'</a>';
   }
   sub=buttonIcon+PreparedHtml+'</span>'
   $("#navScroll").html(sub);
